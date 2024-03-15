@@ -1,0 +1,45 @@
+body{
+    background-color: purple;
+    margin: 0;
+}
+.header{
+    width: auto;
+    height: 200px;
+    border: 2px solid rgb(31, 4, 4);
+    background-color: antiquewhite;
+}
+
+.a{
+    width: 1350px;
+}
+    
+
+ul{ 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+}
+li{
+    color: darkgreen;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style: none;
+}
+li:hover{
+    cursor: pointer;
+    color: white;
+    transition: 1s;
+    box-shadow: 0px 0px 20px 20px;
+    background-color: darkgreen;
+}
+.content-one{
+    
+    background-color: darkgreen;
+    width: auto;
+    height: 300px;
+    font-size: ;
+    
+}
+h1 

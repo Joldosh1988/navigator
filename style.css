@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lawngreen;
+}
+.block {
+    width: 500px;
+    height: 300px;
+    background-image: url(https://designlessons.ru/800/600/https/cdn.dribbble.com/users/1111127/screenshots/3988788/audio.gif);
+    border: 2px solid;
+    border-radius: 30px;
+    display: flex;
+    align-items: flex-end;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+}
+.a:hover {
+    transform: rotate( 180);
+    
+}
+.a{
+    width: 500px;
+    transition: 0.3s;
+}
